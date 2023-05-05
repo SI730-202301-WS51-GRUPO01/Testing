@@ -1,5 +1,4 @@
 Escenario 01: El usuario que necesita comenzar a crear una campaña
-
 Dado que el usuario que se encuentra en la interfaz principal “Explorar”
 Cuando el usuario seleccione la opción Campañas y al desplegarse seleccione la opción “Crear campaña” en barra de navegación lateral
 Entonces la aplicación mostrará un flujo de 5 pasos para registrar la nueva campaña.
@@ -13,6 +12,7 @@ Escenario 03: El usuario registra los “Detalles de la campaña”
 Dado que el usuario se encuentra en el segundo paso de registro y completa los campos “Descripción de la campaña”, “Tipos de donativos [dinero, alimentos, ropa, entre otros]”,” Meta”
 Cuando selecciona el botón siguiente
 Entonces mostrará el siguiente flujo “Tipos de donación”
+
 Escenario 04: El usuario registra los “Tipo de recepción de donaciones”
 Dado que el usuario se encuentra en el tercer paso de registro y agrega sus “Cuentas bancarias”.
 Cuando selecciona el botón siguiente
@@ -46,5 +46,5 @@ Entonces el sistema automáticamente guardará la información editada.
 Escenario 09: Cuando deja algún campo del registro vacío.
 Dado que la organización no completó todos los campos necesarios
 Cuando haga clic en “Siguiente”
-Entonces el sistema detecta que no todos los campos fueron completados 
+Entonces el sistema detecta que no todos los campos fueron completados
 Y el sistema enmarcará de rojo los campos faltantes.
